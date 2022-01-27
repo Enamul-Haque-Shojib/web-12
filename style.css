@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaisei+HarunoUmi&family=Poppins:wght@500;600;700&family=Roboto&display=swap');
+
+body{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Kaisei HarunoUmi', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin:0;
+padding:0;
+}
+
+.container{
+    /* border: 1px solid; */
+    margin: 0 120px;
+}
+
+.image-border{
+    width: 80px;
+    padding: 20px 5px;
+    background-color: #DE4150;
+    margin-top:20px ;
+    margin-bottom: 0px;
+    margin-left: 350px;
+    border-radius: 20px;
+
+}
+
+.go-further{
+    font-size: 25px;
+    /* border:1px solid black; */
+    margin:0 170px;
+    text-align: center;
+    line-height:30px;
+   }
+.text-margin{
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+.btn{
+    border:1px solid #0D6EFD;
+    padding:10px 20px;
+    font-weight: 700;
+    color: #0D6EFD;
+    background-color: white;
+    border-radius: 5px;
+    margin:15px 0;
+    
+}
+
+.image-container1{
+    margin-top: 100px;
+    /* border:1px solid; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    
+}
+
+.image-card{
+    /* border:1px solid; */
+    width: 350px;
+    
+}
+.image-card img{
+    width: 100%;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 1px 1px grey; */
+}
+
+
+
+.card1{
+    width: 340px;
+    
+}
+
+.card2{
+    width: 375px;
+    position: relative;
+    right:200px;
+}
+
+
+
+
+
+.card3{
+    width: 340px;
+    
+    position: relative;
+    right:-50px;
+    
+    
+}
+
+.card4{
+    width: 375px;
+    position: relative;
+    right:460px;
+    
+    
+}
+
+
+
+.card5{
+    width: 450px;
+    position: relative;
+    right:1110px;
+    
+}
+
+@media only screen and (max-width: 376px) {
+
+    .container{
+        /* border: 1px solid; */
+        margin: 0 10px;
+    }
+    .image-border{
+        width: 80px;
+        padding: 20px 5px;
+        background-color: #DE4150;
+        margin-top:20px ;
+        margin-bottom: 0px;
+        margin-left: 125px;
+        border-radius: 20px;
+    
+    }
+
+    .go-further{
+        font-size: 22px;
+        /* border:1px solid black; */
+        margin:0 10px;
+        text-align: center;
+        line-height:40px;
+       }
+
+       .btn{
+        border:1px solid #0D6EFD;
+        padding:20px 30px;
+        font-weight: 700;
+        color: #0D6EFD;
+        background-color: white;
+        border-radius: 5px;
+        margin:15px 0;
+        font-size: 22px;
+        
+    }
+
+    .image-container1{
+        margin-top: 100px;
+        /* border:1px solid; */
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        align-items: center;
+        height: 600px;
+        
+    }
+
+    .image-card{
+        /* border:1px solid; */
+        width: 300px;
+        
+    }
+    .image-card img{
+        width: 100%;
+        /* border: 1px solid; */
+        border-radius: 10px;
+        /* box-shadow: 3px 3px 1px 1px grey; */
+    }
+
+    
+
+
+
+
+    .card1{
+        width: 300px;
+        position: relative;
+        right:-25px;
+        top:-160px;
+        
+        /* display: none; */
+        
+        
+    }
+    
+    .card2{
+        width: 300px;
+        position: relative;
+        right:276px;
+        top:-80px;
+        /* display: none; */
+    }
+    
+    
+    
+    
+    
+    .card3{
+        width: 300px;
+        
+        position: relative;
+        right:578px;
+        bottom: -150px;
+        /* display: none; */
+        
+    }
+    
+    .card4{
+        width: 300px;
+        position: relative;
+        right:879px;
+        bottom: -80px;
+        /* display: none; */
+        
+        
+    }
+    
+    
+    
+    .card5{
+        width: 300px;
+        position: relative;
+        right:1177px;
+        
+        
+    }
+}
